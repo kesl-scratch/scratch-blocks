@@ -416,7 +416,7 @@ Blockly.Blocks['motion_setrotationstyle'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "set rotation style %1",
+      "message0": "Yun Seong Min Test set rotation style %1",
       "args0": [
         {
           "type": "field_dropdown",
