@@ -260,7 +260,7 @@ Blockly.Blocks['data_deleteoflist'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "delete %1 of %2",
+      "message0": "%2의 %1(을)를 지우기 ",
       "args0": [
         {
           "type": "input_value",
@@ -285,7 +285,7 @@ Blockly.Blocks['data_insertatlist'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "insert %1 at %2 of %3",
+      "message0": "%3의 %2번째에 %1넣기",
       "args0": [
         {
           "type": "input_value",
@@ -314,7 +314,7 @@ Blockly.Blocks['data_replaceitemoflist'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "replace item %1 of %2 with %3",
+      "message0": "%2의 %1 번째 항목을 %3(으)로 바꾸기",
       "args0": [
         {
           "type": "input_value",
@@ -343,7 +343,7 @@ Blockly.Blocks['data_itemoflist'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "item %1 of %2",
+      "message0": "%2의 %1번째 항목",
       "args0": [
         {
           "type": "input_value",
@@ -370,7 +370,7 @@ Blockly.Blocks['data_lengthoflist'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "length of %1",
+      "message0": "%1리스트의 항목수",
       "args0": [
         {
           "type": "field_variable",
@@ -391,7 +391,7 @@ Blockly.Blocks['data_listcontainsitem'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "%1 contains %2?",
+      "message0": "%2리스트에 %1(이)가 포함되었는가?",
       "args0": [
         {
           "type": "field_variable",
@@ -416,7 +416,7 @@ Blockly.Blocks['data_showlist'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "show list %1",
+      "message0": "%1리스트 보이기",
       "args0": [
         {
           "type": "field_variable",
@@ -437,7 +437,7 @@ Blockly.Blocks['data_hidelist'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "hide list %1",
+      "message0": "%1리스트 숨기기",
       "args0": [
         {
           "type": "field_variable",
@@ -549,4 +549,3 @@ Blockly.Constants.Data.DELETE_OPTION_CALLBACK_FACTORY = function(block) {
     workspace.deleteVariable(name);
   };
 };
-

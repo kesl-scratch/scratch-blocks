@@ -69,7 +69,7 @@ Blockly.Blocks['sound_play'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "start sound %1",
+      "message0": "%1 재생하기",
       "args0": [
         {
           "type": "input_value",
@@ -89,7 +89,7 @@ Blockly.Blocks['sound_playuntildone'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "play sound %1 until done",
+      "message0": "%1 끝까지 재생하기",
       "args0": [
         {
           "type": "input_value",
@@ -108,7 +108,7 @@ Blockly.Blocks['sound_stopallsounds'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "stop all sounds",
+      "message0": "모든 소리 끄기",
       "category": Blockly.Categories.sound,
       "extensions": ["colours_sounds", "shape_statement"]
     });
@@ -165,7 +165,7 @@ Blockly.Blocks['sound_playdrumforbeats'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "play drum %1 for %2 beats",
+      "message0": "%1번 타악기를 %2박자로 연주하기 ",
       "args0": [
         {
           "type": "input_value",
@@ -189,7 +189,7 @@ Blockly.Blocks['sound_restforbeats'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "rest for %1 beats",
+      "message0": "%1박자쉬기",
       "args0": [
         {
           "type": "input_value",
@@ -209,7 +209,7 @@ Blockly.Blocks['sound_playnoteforbeats'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "play note %1 for %2 beats",
+      "message0": "%1만큼 음정을 %2박자로 재생하기",
       "args0": [
         {
           "type": "input_value",
@@ -238,7 +238,7 @@ Blockly.Blocks['sound_seteffectto'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "set %1 effect to %2",
+      "message0": "%1악기를 %2효과로 연주하기",
       "args0": [
         {
           "type": "field_dropdown",
@@ -263,7 +263,7 @@ Blockly.Blocks['sound_changeeffectby'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "change %1 effect by %2",
+      "message0": "%1악기를 %2효과만큼 바꿔 연주하기",
       "args0": [
         {
           "type": "field_dropdown",
@@ -287,7 +287,7 @@ Blockly.Blocks['sound_cleareffects'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "clear sound effects",
+      "message0": "음악효과 지우기",
       "extensions": ["colours_sounds", "shape_statement"]
     });
   }
@@ -346,7 +346,7 @@ Blockly.Blocks['sound_setinstrumentto'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "set instrument to %1",
+      "message0": "%1악기로 정하기",
       "args0": [
         {
           "type": "input_value",
@@ -366,7 +366,7 @@ Blockly.Blocks['sound_changevolumeby'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "change volume by %1",
+      "message0": "음량을 %1만큼 바꾸기",
       "args0": [
         {
           "type": "input_value",
@@ -386,7 +386,7 @@ Blockly.Blocks['sound_setvolumeto'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "set volume to %1%",
+      "message0": "음량을 %1% (으)로 정하기",
       "args0": [
         {
           "type": "input_value",
@@ -406,7 +406,7 @@ Blockly.Blocks['sound_volume'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "volume",
+      "message0": "음량",
       "category": Blockly.Categories.sound,
       "checkboxInFlyout": true,
       "extensions": ["colours_sounds", "output_number"]
@@ -421,7 +421,7 @@ Blockly.Blocks['sound_changetempoby'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "change tempo by %1",
+      "message0": "빠르기를 %1만큼 바꾸기",
       "args0": [
         {
           "type": "input_value",
@@ -441,7 +441,7 @@ Blockly.Blocks['sound_settempotobpm'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "set tempo to %1 bpm",
+      "message0": "박자를 %1 bpm으로 바꾸기",
       "args0": [
         {
           "type": "input_value",
@@ -461,7 +461,7 @@ Blockly.Blocks['sound_tempo'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "tempo",
+      "message0": "박자",
       "category": Blockly.Categories.sound,
       "checkboxInFlyout": true,
       "extensions": ["colours_sounds", "output_number"]

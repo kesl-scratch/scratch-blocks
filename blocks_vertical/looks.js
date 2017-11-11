@@ -35,7 +35,7 @@ Blockly.Blocks['looks_sayforsecs'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "say %1 for %2 secs",
+      "message0": "%1(을)를  %2초동안 말하기",
       "args0": [
         {
           "type": "input_value",
@@ -59,7 +59,7 @@ Blockly.Blocks['looks_say'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "say %1",
+      "message0": "%1 말하기",
       "args0": [
         {
           "type": "input_value",
@@ -79,7 +79,7 @@ Blockly.Blocks['looks_thinkforsecs'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "think %1 for %2 secs",
+      "message0": "%1를 %2초 동안 생각하기",
       "args0": [
         {
           "type": "input_value",
@@ -103,7 +103,7 @@ Blockly.Blocks['looks_think'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "think %1",
+      "message0": "%1를 생각하기",
       "args0": [
         {
           "type": "input_value",
@@ -124,7 +124,7 @@ Blockly.Blocks['looks_show'] = {
   init: function() {
     this.jsonInit(
       {
-        "message0": "show",
+        "message0": "보이기",
         "category": Blockly.Categories.looks,
         "extensions": ["colours_looks", "shape_statement"]
       });
@@ -139,7 +139,7 @@ Blockly.Blocks['looks_hide'] = {
   init: function() {
     this.jsonInit(
       {
-        "message0": "hide",
+        "message0": "숨기기",
         "category": Blockly.Categories.looks,
         "extensions": ["colours_looks", "shape_statement"]
       });
@@ -163,7 +163,7 @@ Blockly.Blocks['looks_changeeffectby'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "change %1 effect by %2",
+      "message0": "%1효과를 %2만큼 바꾸기",
       "args0": [
         {
           "type": "field_dropdown",
@@ -188,7 +188,7 @@ Blockly.Blocks['looks_seteffectto'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "set %1 effect to %2",
+      "message0": "%1효과를 %2(으)로 정하기",
       "args0": [
         {
           "type": "field_dropdown",
@@ -213,7 +213,7 @@ Blockly.Blocks['looks_cleargraphiceffects'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "clear graphic effects",
+      "message0": "그래픽 효과 지우기",
       "category": Blockly.Categories.looks,
       "extensions": ["colours_looks", "shape_statement"]
     });
@@ -227,7 +227,7 @@ Blockly.Blocks['looks_changesizeby'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "change size by %1",
+      "message0": "크기를 %1만큼 바꾸기",
       "args0": [
         {
           "type": "input_value",
@@ -247,7 +247,7 @@ Blockly.Blocks['looks_setsizeto'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "set size to %1 %",
+      "message0": "크기를 %1%로 정하기",
       "args0": [
         {
           "type": "input_value",
@@ -267,7 +267,7 @@ Blockly.Blocks['looks_size'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "size",
+      "message0": "크기",
       "category": Blockly.Categories.looks,
       "checkboxInFlyout": true,
       "extensions": ["colours_looks", "output_number"]
@@ -309,7 +309,7 @@ Blockly.Blocks['looks_switchcostumeto'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "switch costume to %1",
+      "message0": "모양을 %1으로 바꾸기",
       "args0": [
         {
           "type": "input_value",
@@ -330,7 +330,7 @@ Blockly.Blocks['looks_nextcostume'] = {
   init: function() {
     this.jsonInit(
       {
-        "message0": "next costume",
+        "message0": "다음 모양으로 바꾸기",
         "category": Blockly.Categories.looks,
         "extensions": ["colours_looks", "shape_statement"]
       });
@@ -344,7 +344,7 @@ Blockly.Blocks['looks_switchbackdropto'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "switch backdrop to %1",
+      "message0": "배경을 %1(으)로 바꾸기",
       "args0": [
         {
           "type": "input_value",
@@ -391,7 +391,7 @@ Blockly.Blocks['looks_gotofront'] = {
   init: function() {
     this.jsonInit(
       {
-        "message0": "go to front",
+        "message0": "맨 앞으로 순서 바꾸기",
         "category": Blockly.Categories.looks,
         "extensions": ["colours_looks", "shape_statement"]
       });
@@ -405,7 +405,7 @@ Blockly.Blocks['looks_gobacklayers'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "go back %1 layers",
+      "message0": "%1번째로 물러나기",
       "args0": [
         {
           "type": "input_value",
@@ -425,7 +425,7 @@ Blockly.Blocks['looks_backdropname'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "backdrop name",
+      "message0": "배경이름",
       "category": Blockly.Categories.looks,
       "checkboxInFlyout": true,
       "extensions": ["colours_looks", "output_number"]
@@ -440,7 +440,7 @@ Blockly.Blocks['looks_costumeorder'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "costume #",
+      "message0": "모양#",
       "category": Blockly.Categories.looks,
       "checkboxInFlyout": true,
       "extensions": ["colours_looks", "output_number"]
@@ -455,7 +455,7 @@ Blockly.Blocks['looks_backdroporder'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "backdrop #",
+      "message0": "배경#",
       "category": Blockly.Categories.looks,
       "checkboxInFlyout": true,
       "extensions": ["colours_looks", "output_number"]
@@ -470,7 +470,7 @@ Blockly.Blocks['looks_switchbackdroptoandwait'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "switch backdrop to %1 and wait",
+      "message0": "배경을 %1(으)로 바꾸고 기다리기",
       "args0": [
         {
           "type": "input_value",
@@ -491,7 +491,7 @@ Blockly.Blocks['looks_nextbackdrop'] = {
   init: function() {
     this.jsonInit(
       {
-        "message0": "next backdrop",
+        "message0": "다음 배경으로 바꾸기",
         "category": Blockly.Categories.looks,
         "extensions": ["colours_looks", "shape_statement"]
       });

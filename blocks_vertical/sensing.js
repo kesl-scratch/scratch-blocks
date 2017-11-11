@@ -35,7 +35,7 @@ Blockly.Blocks['sensing_touchingobject'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "touching %1?",
+      "message0": "%1에 닿았는가?",
       "args0": [
         {
           "type": "input_value",
@@ -79,7 +79,7 @@ Blockly.Blocks['sensing_touchingcolor'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "touching color %1?",
+      "message0": "%1색에 닿았는가?",
       "args0": [
         {
           "type": "input_value",
@@ -99,7 +99,7 @@ Blockly.Blocks['sensing_coloristouchingcolor'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "color %1 is touching %2?",
+      "message0": "%1색이 %2색에 닿았는가?",
       "args0": [
         {
           "type": "input_value",
@@ -123,7 +123,7 @@ Blockly.Blocks['sensing_distanceto'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "distance to %1",
+      "message0": "%1까지의 거리",
       "args0": [
         {
           "type": "input_value",
@@ -166,7 +166,7 @@ Blockly.Blocks['sensing_askandwait'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "ask %1 and wait",
+      "message0": "%1 묻고 기다리기",
       "args0": [
         {
           "type": "input_value",
@@ -186,7 +186,7 @@ Blockly.Blocks['sensing_answer'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "answer",
+      "message0": "대답",
       "category": Blockly.Categories.sensing,
       "checkboxInFlyout": true,
       "extensions": ["colours_sensing", "output_number"]
@@ -201,7 +201,7 @@ Blockly.Blocks['sensing_keypressed'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "key %1 pressed?",
+      "message0": "%1키를 눌렀는가?",
       "args0": [
         {
           "type": "input_value",
@@ -285,7 +285,7 @@ Blockly.Blocks['sensing_mousedown'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "mouse down?",
+      "message0": "마우스가 눌렸는가?",
       "category": Blockly.Categories.sensing,
       "extensions": ["colours_sensing", "output_boolean"]
     });
@@ -299,7 +299,7 @@ Blockly.Blocks['sensing_mousex'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "mouse x",
+      "message0": "마우스의 x좌표",
       "category": Blockly.Categories.sensing,
       "extensions": ["colours_sensing", "output_number"]
     });
@@ -313,7 +313,7 @@ Blockly.Blocks['sensing_mousey'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "mouse y",
+      "message0": "마우스의 y좌표",
       "category": Blockly.Categories.sensing,
       "extensions": ["colours_sensing", "output_number"]
     });
@@ -327,7 +327,7 @@ Blockly.Blocks['sensing_loudness'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "loudness",
+      "message0": "음량",
       "category": Blockly.Categories.sensing,
       "checkboxInFlyout": true,
       "extensions": ["colours_sensing", "output_number"]
@@ -342,7 +342,7 @@ Blockly.Blocks['sensing_videoon'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "video %1 on %2",
+      "message0": "비디오%2에 대한 %1에서의 관찰값",
       "args0": [
         {
           "type": "input_value",
@@ -413,7 +413,7 @@ Blockly.Blocks['sensing_videotoggle'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "turn video %1",
+      "message0": "비디오 %1",
       "args0": [
         {
           "type": "input_value",
@@ -458,7 +458,7 @@ Blockly.Blocks['sensing_setvideotransparency'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "set video transparency to %1%",
+      "message0": "비디오 투명도를 %1%로 정하기",
       "args0": [
         {
           "type": "input_value",
@@ -478,7 +478,7 @@ Blockly.Blocks['sensing_timer'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "timer",
+      "message0": "타이머",
       "category": Blockly.Categories.sensing,
       "checkboxInFlyout": true,
       "extensions": ["colours_sensing", "output_number"]
@@ -493,7 +493,7 @@ Blockly.Blocks['sensing_resettimer'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "reset timer",
+      "message0": "타이머 초기화",
       "category": Blockly.Categories.sensing,
       "extensions": ["colours_sensing", "shape_statement"]
     });
@@ -563,7 +563,7 @@ Blockly.Blocks['sensing_of'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "%1 of %2",
+      "message0": "%2의 %1",
       "args0": [
         {
           "type": "input_value",
@@ -590,7 +590,7 @@ Blockly.Blocks['sensing_current'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "current %1",
+      "message0": "현재 %1",
       "args0": [
         {
           "type": "input_value",
@@ -640,7 +640,7 @@ Blockly.Blocks['sensing_dayssince2000'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "days since 2000",
+      "message0": "2000년 이후 현재까지 날짜수",
       "category": Blockly.Categories.sensing,
       "extensions": ["colours_sensing", "output_number"]
     });
@@ -654,7 +654,7 @@ Blockly.Blocks['sensing_username'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "username",
+      "message0": "사용자 이름",
       "category": Blockly.Categories.sensing,
       "checkboxInFlyout": true,
       "extensions": ["colours_sensing", "output_number"]

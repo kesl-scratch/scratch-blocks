@@ -35,7 +35,7 @@ Blockly.Blocks['motion_movesteps'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "move %1 steps",
+      "message0": "%1 만큼 움직이기",
       "args0": [
         {
           "type": "input_value",
@@ -55,7 +55,7 @@ Blockly.Blocks['motion_turnright'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "turn %1 %2 degrees",
+      "message0": "%1 %2 돌기",
       "args0": [
         {
           "type": "field_image",
@@ -81,7 +81,7 @@ Blockly.Blocks['motion_turnleft'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "turn %1 %2 degrees",
+      "message0": "%1 %2 돌기",
       "args0": [
         {
           "type": "field_image",
@@ -107,7 +107,7 @@ Blockly.Blocks['motion_pointindirection'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "point in direction %1",
+      "message0": "%1도 방향보기",
       "args0": [
         {
           "type": "input_value",
@@ -153,7 +153,7 @@ Blockly.Blocks['motion_pointtowards'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "point towards %1",
+      "message0": "%1쪽 보기",
       "args0": [
         {
           "type": "input_value",
@@ -200,7 +200,7 @@ Blockly.Blocks['motion_gotoxy'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "go to x: %1 y: %2",
+      "message0": "x: %1 y: %2로 이동하기",
       "args0": [
         {
           "type": "input_value",
@@ -224,7 +224,7 @@ Blockly.Blocks['motion_goto'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "go to %1",
+      "message0": "%1 위치로 이동하기",
       "args0": [
         {
           "type": "input_value",
@@ -244,7 +244,7 @@ Blockly.Blocks['motion_glidesecstoxy'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "glide %1 secs to x: %2 y: %3",
+      "message0": "%1초 동안 x: %2 y: %3으로 이동하기",
       "args0": [
         {
           "type": "input_value",
@@ -298,7 +298,7 @@ Blockly.Blocks['motion_glideto'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "glide %1 secs to %2",
+      "message0": "%1초 동안 %2으로 이동하기",
       "args0": [
         {
           "type": "input_value",
@@ -322,7 +322,7 @@ Blockly.Blocks['motion_changexby'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "change x by %1",
+      "message0": "x좌표를 %1만큼 바꾸기",
       "args0": [
         {
           "type": "input_value",
@@ -342,7 +342,7 @@ Blockly.Blocks['motion_setx'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "set x to %1",
+      "message0": "x좌표를 %1(으)로 정하기",
       "args0": [
         {
           "type": "input_value",
@@ -362,7 +362,7 @@ Blockly.Blocks['motion_changeyby'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "change y by %1",
+      "message0": "y좌표를 %1만큼 바꾸기",
       "args0": [
         {
           "type": "input_value",
@@ -382,7 +382,7 @@ Blockly.Blocks['motion_sety'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "set y to %1",
+      "message0": "y좌표를 %1(으)로 정하기",
       "args0": [
         {
           "type": "input_value",
@@ -402,7 +402,7 @@ Blockly.Blocks['motion_ifonedgebounce'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "if on edge, bounce",
+      "message0": "벽에 닿으면 튕기기",
       "category": Blockly.Categories.motion,
       "extensions": ["colours_motion", "shape_statement"]
     });
@@ -416,7 +416,7 @@ Blockly.Blocks['motion_setrotationstyle'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "Yun Seong Min Test set rotation style %1",
+      "message0": "회전방식을 %1(으)로 정하기",
       "args0": [
         {
           "type": "field_dropdown",
@@ -441,7 +441,7 @@ Blockly.Blocks['motion_xposition'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "x position",
+      "message0": "x좌표",
       "category": Blockly.Categories.motion,
       "checkboxInFlyout": true,
       "extensions": ["colours_motion", "output_number"]
@@ -456,7 +456,7 @@ Blockly.Blocks['motion_yposition'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "y position",
+      "message0": "y좌표",
       "category": Blockly.Categories.motion,
       "checkboxInFlyout": true,
       "extensions": ["colours_motion", "output_number"]
@@ -471,7 +471,7 @@ Blockly.Blocks['motion_direction'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "direction",
+      "message0": "방향",
       "category": Blockly.Categories.motion,
       "checkboxInFlyout": true,
       "extensions": ["colours_motion", "output_number"]

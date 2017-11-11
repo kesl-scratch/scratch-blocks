@@ -36,7 +36,7 @@ Blockly.Blocks['event_whenflagclicked'] = {
   init: function() {
     this.jsonInit({
       "id": "event_whenflagclicked",
-      "message0": "when %1 clicked",
+      "message0": "%1를 클릭했을 때",
       "args0": [
         {
           "type": "field_image",
@@ -59,7 +59,7 @@ Blockly.Blocks['event_whenthisspriteclicked'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "when this sprite clicked",
+      "message0": "이 스프라이트를 눌렀을 때",
       "category": Blockly.Categories.event,
       "extensions": ["colours_event", "shape_hat"]
     });
@@ -74,7 +74,7 @@ Blockly.Blocks['event_whenbroadcastreceived'] = {
   init: function() {
     this.jsonInit({
       "id": "event_whenbroadcastreceived",
-      "message0": "when I receive %1",
+      "message0": "%1(을)를 받았을 때",
       "args0": [
         {
           "type": "field_dropdown",
@@ -99,7 +99,7 @@ Blockly.Blocks['event_whenbackdropswitchesto'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "when backdrop switches to %1",
+      "message0": "배경이 %1(으)로 바뀌었을 때",
       "args0": [
         {
           "type": "field_dropdown",
@@ -122,7 +122,7 @@ Blockly.Blocks['event_whengreaterthan'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "when %1 > %2",
+      "message0": "%1 > %2 일때",
       "args0": [
         {
           "type": "field_dropdown",
@@ -178,7 +178,7 @@ Blockly.Blocks['event_broadcast'] = {
   init: function() {
     this.jsonInit({
       "id": "event_broadcast",
-      "message0": "broadcast %1",
+      "message0": "%1 방송하기",
       "args0": [
         {
           "type": "input_value",
@@ -198,7 +198,7 @@ Blockly.Blocks['event_broadcastandwait'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "broadcast %1 and wait",
+      "message0": "%1방송하고 기다리기",
       "args0": [
         {
           "type": "input_value",
@@ -219,7 +219,7 @@ Blockly.Blocks['event_whenkeypressed'] = {
   init: function() {
     this.jsonInit({
       "id": "event_whenkeypressed",
-      "message0": "when %1 key pressed",
+      "message0": "%1키를 눌렀을 때",
       "args0": [
         {
           "type": "field_dropdown",

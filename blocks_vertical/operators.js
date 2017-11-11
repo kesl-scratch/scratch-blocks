@@ -136,7 +136,7 @@ Blockly.Blocks['operator_random'] = {
   init: function() {
     this.jsonInit(
       {
-        "message0": "pick random %1 to %2",
+        "message0": "%1 부터 %2사이의 난수",
         "args0": [
           {
             "type": "input_value",
@@ -232,7 +232,7 @@ Blockly.Blocks['operator_and'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "%1 and %2",
+      "message0": "%1 그리고 %2",
       "args0": [
         {
           "type": "input_value",
@@ -258,7 +258,7 @@ Blockly.Blocks['operator_or'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "%1 or %2",
+      "message0": "%1 또는 %2",
       "args0": [
         {
           "type": "input_value",
@@ -284,7 +284,7 @@ Blockly.Blocks['operator_not'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "not %1",
+      "message0": "%1(가)이 아니다",
       "args0": [
         {
           "type": "input_value",
@@ -305,7 +305,7 @@ Blockly.Blocks['operator_join'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "join %1 %2",
+      "message0": "%1 와 %2 결합",
       "args0": [
         {
           "type": "input_value",
@@ -329,7 +329,7 @@ Blockly.Blocks['operator_letter_of'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "letter %1 of %2",
+      "message0": "%2의 %1번째 글자",
       "args0": [
         {
           "type": "input_value",
@@ -353,7 +353,7 @@ Blockly.Blocks['operator_length'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "length of %1",
+      "message0": "%1의 길이",
       "args0": [
         {
           "type": "input_value",
@@ -374,7 +374,7 @@ Blockly.Blocks['operator_contains'] = {
   init: function() {
     this.jsonInit(
       {
-        "message0": "%1 contains %2?",
+        "message0": "%1는 %2를 포함하는가?",
         "args0": [
           {
             "type": "input_value",
@@ -399,7 +399,7 @@ Blockly.Blocks['operator_mod'] = {
   init: function() {
     this.jsonInit(
       {
-        "message0": "%1 mod %2",
+        "message0": "%1 나누기 %2의 나머지",
         "args0": [
           {
             "type": "input_value",
@@ -424,7 +424,7 @@ Blockly.Blocks['operator_round'] = {
   init: function() {
     this.jsonInit(
       {
-        "message0": "round %1",
+        "message0": "%1 반올림",
         "args0": [
           {
             "type": "input_value",
@@ -445,7 +445,7 @@ Blockly.Blocks['operator_mathop'] = {
   init: function() {
     this.jsonInit(
       {
-        "message0": "%1 of %2",
+        "message0": "%1 %2",
         "args0": [
           {
             "type": "field_dropdown",
